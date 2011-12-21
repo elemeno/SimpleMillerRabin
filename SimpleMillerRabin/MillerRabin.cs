@@ -2,8 +2,8 @@ using System;
 
 namespace SimpleMillerRabin
 {
-	public class MillerRabin
-	{
+  public class MillerRabin
+  {
     public static bool MRPrimeTest(int n)
     {
       if (n % 2 == 0)
@@ -80,6 +80,6 @@ namespace SimpleMillerRabin
 
       return (int)result;
     }
-	}
+  }
 }
 
